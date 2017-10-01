@@ -1,0 +1,1 @@
+datadumpconv.cpp - a little program to generate SQL INCLUDE statements from SELECT * FROM <table> outputs

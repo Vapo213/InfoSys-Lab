@@ -1,0 +1,30 @@
+HOW TO INSTALL INNOVATOR ON YOUR OWN COMPUTER
+
+1. Download Innovator 12.3 (Innovator Enterprise Modelling Suite) depending on 32/64 bits from 
+   https://www2.mid.de/fileadmin/mid/Innovator/setup/12.3.1.20322/Enterprise/de/InnovatorEnterprise.zip
+   or
+   https://www2.mid.de/fileadmin/mid/Innovator/setup/12.3.1.20322/Enterprise_64/de/InnovatorEnterprise_64.zip
+
+2. Install Java on your computer if not already done so.
+   If you are using the 64-bit version of Innovator your Java must be the 64-bit version as well!
+
+3. Unzip the Innovator file and start setup to install Innovator. Installing the client is sufficient.
+   The innovator installs by default into C:\Innovator.
+
+4. Start Innovator 12.3 --> Administration --> Setup (as admin if necessary)
+   Choose Setup -> Modify Environment 
+   Enter itnt8001.12300 as INOHOST 
+   (this is the repository server with the models as well as the license server).
+   Under LANG you can choose Deutsch or English as the environment language.
+
+5. Close Setup
+
+6. Copy the file Transformation.xml into C:\Innovator\12.3\inodir\java\M2M_OOER\configuration\de\mid\innovator\ooer\ 
+   overwriting the old one.
+
+7. Innovator is ready to start. 
+   Access to the model in the repository server requires VPN access.
+
+
+
+
