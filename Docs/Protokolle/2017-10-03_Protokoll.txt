@@ -1,0 +1,36 @@
+Besprechungsprotokoll #1
+Datum: 03.10.2017
+
+Fach: Information Systems
+Grund: Erstes Meeting zur Besprechung für Milestone 1 und allgemeines Brainstorming
+
+
+Inhalt
+    TOP 1: Documentation of group structure
+    TOP 2: Mission statement & mission objectives
+
+
+TOP 1:     
+    Name    Rolle                               Aufgabe
+    Björn:  Teamlead; Milestonelead M1          1. Database planning; Organisation und Dokumentation 
+    Corvin:                                     8. Implementation; 9. Data conversion and loading
+    Tobias: Milestonelead M4                    6. Application design; 8. Implementation; 9. Data conversion and loading
+    Michi:  Milestonelead M3                    3. Requirements collection and analysis
+    Lukas:                                      2. System definition; 4. Database design
+    Seba:   Milestonelead M2                    4. Database design
+
+
+TOP 2:
+    Mission statement:
+        Es soll eine Software entstehen, welches die Planung der Mitarbeiter, Vorlesungen und Räume durch automatisierung erleichtert.
+
+    Mission objectives:
+        Es muss möglich sein einen neuen Mitarbeiter anzulegen und bestehende zu ändern.
+        Es muss möglich sein neue Vorlesungen anzulegen und bestehende zu ändern.
+        Es muss möglich sein Räume für Vorlesungen einzuplanen.
+        Es muss möglich sein Vorlesungen für Studiengänge einzuplanen.
+        Es muss möglich sein verschiedene Formen der Ausgabe zu generieren.
+
+
+
+
