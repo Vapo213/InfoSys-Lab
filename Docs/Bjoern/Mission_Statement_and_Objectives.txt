@@ -1,6 +1,6 @@
 Mission statement:
     Es soll eine Software entstehen, welche die Planung der Mitarbeiter,
-    Vorlesungen und Räume durch automatisierung erleichtert. Am Ende muss die Software
+    Vorlesungen und Räume durch Automatisierung erleichtert. Am Ende muss die Software
     einen vollständigen Aufwands-, Raum- und Zeitrasterplan erstellen.
 
 Mission objectives:
