@@ -1,0 +1,4 @@
+1. In der BCNF Candidate Keys hinschreiben
+2. Bei Professor Prüfernummer und Zeitsemester als CompKey
+
+3. Anschrift auseinanderziehen
