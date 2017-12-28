@@ -1,39 +1,39 @@
 CREATE TABLE DOZENT
-	( PRIVMAIL long varchar
-	, HS_MAIL long varchar NOT NULL
-	, ANSCHRIFT long varchar
+	( PRIVMAIL mediumtext
+	, HS_MAIL mediumtext NOT NULL
+	, ANSCHRIFT mediumtext
 	, TELEFONNUMMER char(1)
-	, NACHNAME long varchar NOT NULL
+	, NACHNAME mediumtext NOT NULL
 	, PRUEFERNUMMER char(1) NOT NULL
-	, TITEL long varchar
-	, VORNAME long varchar NOT NULL
-	, KUERZEL long varchar NOT NULL )
+	, TITEL mediumtext
+	, VORNAME mediumtext NOT NULL
+	, KUERZEL mediumtext NOT NULL )
 ;
 
 CREATE TABLE FAKULTAET
-	( KUERZEL long varchar NOT NULL
-	, NAME long varchar NOT NULL
+	( KUERZEL mediumtext NOT NULL
+	, NAME mediumtext NOT NULL
 	, PRUEFERNUMMER char(1) NOT NULL )
 ;
 
 CREATE TABLE HAT
-	( NAME long varchar NOT NULL
-	, NAME_130 long varchar NOT NULL )
+	( NAME mediumtext NOT NULL
+	, NAME_130 mediumtext NOT NULL )
 ;
 
 CREATE TABLE IST_EINE
-	( NAME long varchar NOT NULL
+	( NAME mediumtext NOT NULL
 	, ID char(1) NOT NULL )
 ;
 
 CREATE TABLE KANN_ANBIETEN
 	( PRUEFERNUMMER char(1) NOT NULL
-	, NAME long varchar NOT NULL )
+	, NAME mediumtext NOT NULL )
 ;
 
 CREATE TABLE KANN_HABEN_HAT
-	( NAME long varchar NOT NULL
-	, EINSTUFUNG long varchar NOT NULL )
+	( NAME mediumtext NOT NULL
+	, EINSTUFUNG mediumtext NOT NULL )
 ;
 
 CREATE TABLE LEHRBEAUFTRAGTE
@@ -43,59 +43,59 @@ CREATE TABLE LEHRBEAUFTRAGTE
 
 CREATE TABLE LEHRT
 	( PRUEFERNUMMER char(1) NOT NULL
-	, NAME long varchar NOT NULL )
+	, NAME mediumtext NOT NULL )
 ;
 
 CREATE TABLE PROFESSOR
 	( VORLESUNGSKONTIGENT char(1) NOT NULL
 	, DWS char(1)
-	, ZEITSEMESTER long varchar NOT NULL
+	, ZEITSEMESTER mediumtext NOT NULL
 	, PRUEFERNUMMER char(1) NOT NULL )
 ;
 
 CREATE TABLE RAUM
 	( RAUMNUMMER char(1) NOT NULL
 	, GEBAEUDE char(1) NOT NULL
-	, STANDORT long varchar NOT NULL
-	, NAME long varchar NOT NULL )
+	, STANDORT mediumtext NOT NULL
+	, NAME mediumtext NOT NULL )
 ;
 
 CREATE TABLE SETZT_SICH_ZUSAMMEN_AUS
-	( NAME long varchar NOT NULL
-	, KUERZEL long varchar NOT NULL )
+	( NAME mediumtext NOT NULL
+	, KUERZEL mediumtext NOT NULL )
 ;
 
 CREATE TABLE STUDIENGANG
-	( SPO long varchar NOT NULL
-	, ABSCHLUSS long varchar NOT NULL
-	, ZEITSEMESTER long varchar NOT NULL
-	, NAME long varchar NOT NULL
-	, KUERZEL long varchar NOT NULL )
+	( SPO mediumtext NOT NULL
+	, ABSCHLUSS mediumtext NOT NULL
+	, ZEITSEMESTER mediumtext NOT NULL
+	, NAME mediumtext NOT NULL
+	, KUERZEL mediumtext NOT NULL )
 ;
 
 CREATE TABLE STUDIENSEMESTER
-	( EINSTUFUNG long varchar NOT NULL )
+	( EINSTUFUNG mediumtext NOT NULL )
 ;
 
 CREATE TABLE TAETIGKEITEN
 	( DWS char(1) NOT NULL
 	, ID char(1) NOT NULL
-	, NAME long varchar NOT NULL
-	, ZEITSEMESTER long varchar NOT NULL
+	, NAME mediumtext NOT NULL
+	, ZEITSEMESTER mediumtext NOT NULL
 	, PRUEFERNUMMER char(1) NOT NULL
 	, PRUEFERNUMMER_118 char(1) NOT NULL
-	, KUERZEL long varchar NOT NULL )
+	, KUERZEL mediumtext NOT NULL )
 ;
 
 CREATE TABLE VORLESUNGPLAN
-	( NAME long varchar NOT NULL
-	, ZEITSEMESTER long varchar NOT NULL
+	( NAME mediumtext NOT NULL
+	, ZEITSEMESTER mediumtext NOT NULL
 	, SWS char(1) NOT NULL
 	, PRUEFERNUMMER char(1) NOT NULL )
 ;
 
 CREATE TABLE VORLESUNGREAL
-	( NAME long varchar NOT NULL
+	( NAME mediumtext NOT NULL
 	, VORLESUNGSBLOCK char(1) NOT NULL )
 ;
 
@@ -105,7 +105,7 @@ ALTER TABLE DOZENT
 
 ALTER TABLE FAKULTAET
 	ADD CONSTRAINT PK PRIMARY KEY 
-	( KUERZEL );
+	( KUERZEL mediumtext not null);
 
 ALTER TABLE HAT
 	ADD CONSTRAINT PK PRIMARY KEY 
