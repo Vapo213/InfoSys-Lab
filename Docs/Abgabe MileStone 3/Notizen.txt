@@ -1,0 +1,16 @@
+1. In der BCNF Candidate Keys hinschreiben
+2. Bei Professor Prüfernummer und Zeitsemester als CompKey
+
+
+3. Many to Many Tätigkeit -> VorlesungReal ändern
+4. SQL neu!
+5. Export?
+
+
+
+view-connect@hs-esslingen.de
+-> Schoop seine VM
+-> Mit eigenem User anmelden
+
+-> Innovator starten
+-> nach dem HowTo vom Schoop arbeiten
