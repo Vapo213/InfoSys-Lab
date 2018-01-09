@@ -1,4 +1,4 @@
--- Anschriften der Dozenten
+﻿-- Anschriften der Dozenten
 INSERT INTO ANSCHRIFT
 (ID, STRASSE, HAUSNUMMER, PLZ, ORT)
 VALUES
@@ -276,3 +276,19 @@ VALUES
 (385,'WS1112',18,0),
 (391,'WS1112',18,0),
 (392,'WS1112',18,0);
+
+--STUDIENGANG
+--ID integer NOT NULL
+--PRUEFUNGSORDNUNG char(100) NOT NULL
+--ABSCHLUSS char(100) NOT NULL
+--ZEITSEMESTER char(100) NOT NULL
+--NAME char(100) NOT NULL
+--KUERZEL char(5) NOT NULL 
+INSERT INTO STUDIENGANG
+(ID, PRUEFUNGSORDNUNG, ABSCHLUSS, ZEITSEMESTER, NAME, KUERZEL
+VALUES
+(1, 'SPO1', 'Bachelor of Engineering', 'Informationstechnik', 'IT'),
+(2, 'SPO1', 'Bachelor of Engineering', 'Kommunikationstechnik', 'KTB'),
+(3, 'SPO1', 'Bachelor of Engineering', 'Softwaretechnik','SWT'),
+(4, 'SPO1', 'Bachelor of Engineering', 'Medieninformatik', 'SWM'),
+(5, 'SPO1', 'Bachelor of Engineering', 'Technische Informatik', 'TIB');
