@@ -1,4 +1,4 @@
-﻿-- Anschriften der Dozenten
+-- Anschriften der Dozenten
 INSERT INTO ANSCHRIFT
 (ID, STRASSE, HAUSNUMMER, PLZ, ORT)
 VALUES
@@ -285,10 +285,10 @@ VALUES
 --NAME char(100) NOT NULL
 --KUERZEL char(5) NOT NULL 
 INSERT INTO STUDIENGANG
-(ID, PRUEFUNGSORDNUNG, ABSCHLUSS, ZEITSEMESTER, NAME, KUERZEL
+(ID, PRUEFUNGSORDNUNG, ABSCHLUSS, ZEITSEMESTER, NAME, KUERZEL)
 VALUES
-(1, 'SPO1', 'Bachelor of Engineering', 'Informationstechnik', 'IT'),
-(2, 'SPO1', 'Bachelor of Engineering', 'Kommunikationstechnik', 'KTB'),
-(3, 'SPO1', 'Bachelor of Engineering', 'Softwaretechnik','SWT'),
-(4, 'SPO1', 'Bachelor of Engineering', 'Medieninformatik', 'SWM'),
-(5, 'SPO1', 'Bachelor of Engineering', 'Technische Informatik', 'TIB');
+(1, 'SPO1', 'Bachelor of Engineering', 'WS1112', 'Informationstechnik', 'IT'),
+(2, 'SPO1', 'Bachelor of Engineering', 'WS1112','Kommunikationstechnik', 'IT'),
+(3, 'SPO1', 'Bachelor of Engineering', 'WS1112','Softwaretechnik','IT'),
+(4, 'SPO1', 'Bachelor of Engineering', 'WS1112','Medieninformatik', 'IT'),
+(5, 'SPO1', 'Bachelor of Engineering', 'WS1112','Technische Informatik', 'IT');
